@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Palato Ponta Verde</title>
+</head>
+<style>
+    html, body{
+        margin: 0; height: 100%; font-family: 'Roboto';
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+    }
+    .logo{
+        text-align: center; padding: 20px 0 10px 0;
+    }
+    .logo img{
+        height: 140px;
+    }
+    .header__nav{
+        border-bottom: 1px solid rgb(226, 28, 33);
+    }
+    .header__nav li{
+        display: inline-block; margin: 0 10px; padding: 8px;
+    }
+    .header__nav ul{
+        padding: 0 50px; text-align: center; margin: 0;
+    }
+    .header__nav li:nth-child(8){
+        border-left: 1px solid rgb(226, 28, 33);
+        border-right: 1px solid rgb(226, 28, 33);
+    }
+    .header__nav a{
+        color: #FFF; text-decoration: none; font-size: 13px;
+        text-transform: uppercase;transition: 0.5s;
+    }
+    .header__nav a:hover{
+        color: rgb(226, 28, 33);
+    }
+    .warning-covid{
+        background-color: rgb(47, 46, 46); text-align: center;
+        color: #FFF; height: 40px;
+    }
+    .warning__para{
+        margin: 0; line-height: 40px; font-size: 15px;
+    }
+    .carrousel-imgs{
+        height: 500px; background-image: url(./img/050d1b_945a336426c94f628ae778c27b6b55dd_mv2.webp);
+        background-size: cover; border-top: 1px solid rgba(0, 0, 0, 0);
+        display: flex; align-items: center;
+    }
+    .carrousel-content{
+        width: 30%; text-align: center; margin-left: 50px;
+        color: #FFF; font-family: 'Montserrat', sans-serif;
+        
+    }
+    .carrousel-content h2{
+        margin: 0 0 3px 0; letter-spacing: 2px; font-size: 40px;
+        font-weight: 300; text-transform: uppercase;
+    }
+    .carrousel-content p{
+        margin: 0 0 50px 0; letter-spacing: 2px;
+    }
+    .carrousel-button{
+        padding: 10px 20px; text-decoration: none; color: #FFF;
+        border: 1px solid #fff; display: inline-block;
+        background-color: rgba(128, 128, 128, 0.109); transition: 0.5s;
+        
+    }
+    .carrousel-button:hover{
+        color: brown; background-color: #FFF;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./img/050d1b_cdb03ecc665e4394bd1d55ca91ca91a8_mv2_d_2018_1968_s_2.webp" alt="palato-logo">
+        </div>
+
+        <nav class="header__nav">
+            <ul>    
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Dicas</a></li>
+                <li><a href="#">Casa</a></li>
+                <li><a href="#">Adega</a></li>
+                <li><a href="#">Restaurantes</a></li>
+                <li><a href="#">O Palato</a></li>
+                <li><a href="#">Loja Online</a></li>
+                <li><a href="#">Atendimento</a></li>
+            </ul>
+        </nav>
+        <div class="warning-covid">
+            <p class="warning__para">COVID-19 Horário especial. Palato Farol e Praia: 7h às 21h | Palato Parque: 7h às 20h | Palato P. Verde: 24h            </p>
+        </div>
+    </header>
+
+    <div class="carrousel-imgs">
+        <div class="carrousel-content">
+            <h2 class="carrousel__title">Vinhos</h1>
+            <p class="carrousel__subtitle">Delivery</p>
+            <a href="#" class="carrousel-button">Compre Online</a>
+        </div>
+    </div>
+</body>
+</html>
